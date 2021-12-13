@@ -1,8 +1,7 @@
 # prolog-projet-poly
 Première Partie :
 
-1.	Représentation de ces polynômes :
-On représente les polynômes d'une variable à coefficients réels, par une liste de monomes. Chaque monome est représenté par un couple : coefficient et degré du monome. 
+1.	Représentation de ces polynômes d'une variable à coefficients réels, par une liste de monomes. Chaque monome est représenté par un couple : coefficient et degré du monome. 
 Exemple :  pour le polynôme :  , la lise est : [ [1.5, 0] , [-1,1] , [0, 2] , [3.5,3] ].
 
 2.	Opérations sur les polynômes :
@@ -18,9 +17,7 @@ Exemple :  pour le polynôme :  , la lise est : [ [1.5, 0] , [-1,1] , [0, 2] , [
 
 Seconde partie : (redéfinition des opérateurs) 
 
-On aimerait disposer d’un moyen naturel pour écrire et évaluer des opérations sur les polynômes.
-
-Les différentes caractéristiques des opérateurs sont décrites ci-dessous :
+Ecrire et évaluer des opérations sur les polynômes tel que
  
 -Priorités : produit > addition > difference > simplification = derivation> affectation 
 -Nom des opérateurs : produit, (‘*’), addition (‘+’), différence (‘-’ ), simplification ( ‘simp’ ) = derivation (‘deri’)> affectation (‘est’).
